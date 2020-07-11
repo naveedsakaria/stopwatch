@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stop Watch Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div>
+                    <p id="heading">Stop Watch</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="at">
+                    <h2>Minutes</h2>
+                    <h2>Seconds</h2>
+                    <h2>MilliSec</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="at">
+                    <h1 id="min">00</h1>
+                    <h1 id="sec">00</h1>
+                    <h1 id="milsec">00</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="at">
+                    <button id="btn" type="start" onclick="start()">Start</button>
+                    <button id="btn" type="reset" onclick="pause()">Pause</button>
+                    <button id="btn" type="reset" onclick="reset()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div>
+                    <h3 class="dev">Developed by : Naveed Sakaria</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+    <script src="app.js"></script>
+</html>

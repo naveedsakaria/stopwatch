@@ -1,0 +1,45 @@
+body{
+    background-color: #008080 !important;
+    text-align: center;    
+}
+
+#heading{
+    text-align: center;
+    font-size: 48px;
+    padding-top: 100px;
+    font-size: 58px;
+    color: cyan;
+}
+
+h1{
+    display: inline-block;
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    margin: 4px 0px 20px 0px;
+}
+h2{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: white;
+    margin: 4px 0px 10px 0px;
+}
+button{
+    color: white;
+    background-color:  brown;
+    height: 40px;
+    width: 100px;;
+    cursor: pointer; 
+    text-align: center;
+    font-size: large !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 0px 10px 0px ;
+}
+.dev {
+    text-align: center;
+    margin: 40px;
+    color: gold;
+    font-size: 26px;
+   
+}
